@@ -1,14 +1,17 @@
-﻿
-#include "pch.h"
-#include <iostream>
-#include <fstream>
+﻿#include "pch.h"
+#include "test.h"
 using namespace std;
 
-int main(int argc,char** argv)
+int main()
 {
-	if (argc != 3) return 0;
-	ifstream in(argv[1]);
-	ofstream out(argv[2]);
-	return 0;
+
+    A a;
+    B b;
+    test t;
+    std::cout << a.getPrice() << std::endl;
+    std::cout << b.getPrice() << std::endl;
+    b.getPrice();
+    a.getPrice();
+    return 0;
 }
- 
+

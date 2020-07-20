@@ -1,24 +1,37 @@
 ﻿#include "pch.h"
 #include <iostream>
-#include <vector>
-
-std :: vector<int> add( const std::vector<int> &a, const std::vector<int> &b )
+using namespace std;
+int printEachLine( int j )
 {
-    std::vector<int> res( a );
-
-    for(unsigned int i = 0; i < a.size(); i++ )
+    if( j == 0 )
+        return 1;
+    else
     {
-        res[i] += b[i];
-    }
+        cout << "* ";
 
-    return res;
+        printEachLine( j - 1 );
+
+
+        return 1;
+    }
 }
+
+int print( int i )
+{
+    if( i == 0 )
+        return 1;
+    else
+    {
+        print( i - 1 );
+
+        printEachLine( i );
+
+        cout << endl;
+        return 1;
+    }
+}
+
 int main()
 {
-    std::vector<int> a = { 1, 2, 3 };
-    std::vector<int>res = add( a, a );
-	std::cout << res[0];
+    print( 4 );
 }
-
-
-

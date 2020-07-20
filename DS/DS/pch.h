@@ -1,4 +1,4 @@
-﻿// 入门提示:
+﻿// 入门提示: 
 //   1. 使用解决方案资源管理器窗口添加/管理文件
 //   2. 使用团队资源管理器窗口连接到源代码管理
 //   3. 使用输出窗口查看生成输出和其他消息
@@ -8,10 +8,7 @@
 
 #ifndef PCH_H
 #define PCH_H
-#include <iostream>
-#include <fstream>
-#include "A.h"
-#include "B.h"
+
 // TODO: 添加要在此处预编译的标头
 
 #endif //PCH_H

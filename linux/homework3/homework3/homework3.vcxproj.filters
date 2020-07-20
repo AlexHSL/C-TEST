@@ -15,33 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="pch.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="test.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="A.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="B.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="pch.cpp">
+    <ClCompile Include="wc.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="OOPexercises.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="A.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="B.cpp">
+    <ClCompile Include="ls.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
